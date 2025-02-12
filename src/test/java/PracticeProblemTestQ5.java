@@ -8,34 +8,34 @@ public class PracticeProblemTestQ5 {
     @DisplayName("")
     void positiveOrNegativeTest1() {
     // Enter code here
-    assertEquals("Positive", Main.positiveOrNegative(6));
+    assertEquals("Positive", PracticeProblem.positiveOrNegative(6));
     }
 
     @Test
     @DisplayName("")
     void positiveOrNegativeTest2() {
     // Enter code here
-    assertEquals("Positive", Main.positiveOrNegative(99));
+    assertEquals("Positive", PracticeProblem.positiveOrNegative(99));
     }
 
     @Test
     @DisplayName("")
     void positiveOrNegativeTest3() {
     // Enter code here
-    assertEquals("Negative", Main.positiveOrNegative(0));
+    assertEquals("Negative", PracticeProblem.positiveOrNegative(0));
     }
 
     @Test
     @DisplayName("")
     void positiveOrNegativeTest4() {
     // Enter code here
-    assertEquals("Negative", Main.positiveOrNegative(-100));
+    assertEquals("Negative", PracticeProblem.positiveOrNegative(-100));
     }
 
     @Test
     @DisplayName("")
     void positiveOrNegativeTest5() {
     // Enter code here
-    assertEquals("Negative", Main.positiveOrNegative(-1));
+    assertEquals("Negative", PracticeProblem.positiveOrNegative(-1));
     }
 }

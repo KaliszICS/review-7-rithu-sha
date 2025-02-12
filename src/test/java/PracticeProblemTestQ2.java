@@ -8,34 +8,34 @@ public class PracticeProblemTestQ2 {
     @DisplayName("")
     void teacherOrStudentTest1() {
     // Enter code here
-    assertEquals("Teacher", Main.teacherOrStudent("Kalisz"));
+    assertEquals("Teacher", PracticeProblem.teacherOrStudent("Kalisz"));
     }
 
     @Test
     @DisplayName("")
     void teacherOrStudentTest2() {
     // Enter code here
-    assertEquals("Student", Main.teacherOrStudent("student"));
+    assertEquals("Student", PracticeProblem.teacherOrStudent("student"));
     }
 
     @Test
     @DisplayName("")
     void teacherOrStudentTest3() {
     // Enter code here
-    assertEquals("Student", Main.teacherOrStudent(""));
+    assertEquals("Student", PracticeProblem.teacherOrStudent(""));
     }
 
     @Test
     @DisplayName("")
     void teacherOrStudentTest4() {
     // Enter code here
-    assertEquals("Student", Main.teacherOrStudent("a"));
+    assertEquals("Student", PracticeProblem.teacherOrStudent("a"));
     }
 
     @Test
     @DisplayName("")
     void teacherOrStudentTest5() {
     // Enter code here
-    assertEquals("Student", Main.teacherOrStudent("kalisz"));
+    assertEquals("Student", PracticeProblem.teacherOrStudent("kalisz"));
     }
 }

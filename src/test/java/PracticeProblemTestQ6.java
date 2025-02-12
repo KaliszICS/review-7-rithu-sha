@@ -8,34 +8,34 @@ public class PracticeProblemTestQ6 {
     @DisplayName("")
     void highOrLowTest1() {
     // Enter code here
-    assertEquals("High", Main.highOrLow(101));
+    assertEquals("High", PracticeProblem.highOrLow(101));
     }
 
     @Test
     @DisplayName("")
     void highOrLowTest2() {
     // Enter code here
-    assertEquals("High", Main.highOrLow(1000098));
+    assertEquals("High", PracticeProblem.highOrLow(1000098));
     }
 
     @Test
     @DisplayName("")
     void highOrLowTest3() {
     // Enter code here
-    assertEquals("Low", Main.highOrLow(100));
+    assertEquals("Low", PracticeProblem.highOrLow(100));
     }
 
     @Test
     @DisplayName("")
     void highOrLowTest4() {
     // Enter code here
-    assertEquals("Low", Main.highOrLow(-100));
+    assertEquals("Low", PracticeProblem.highOrLow(-100));
     }
 
     @Test
     @DisplayName("")
     void highOrLowtest5() {
     // Enter code here
-    assertEquals("Low", Main.highOrLow(0));
+    assertEquals("Low", PracticeProblem.highOrLow(0));
     }
 }

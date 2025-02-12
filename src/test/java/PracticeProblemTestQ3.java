@@ -8,34 +8,34 @@ public class PracticeProblemTestQ3 {
     @DisplayName("")
     void fartherFromZeroTest1() {
     // Enter code here
-    assertEquals(10, Main.fartherFromZero(5));
+    assertEquals(10, PracticeProblem.fartherFromZero(5));
     }
 
     @Test
     @DisplayName("")
     void fartherFromZeroTest2() {
     // Enter code here
-    assertEquals(9, Main.fartherFromZero(4));
+    assertEquals(9, PracticeProblem.fartherFromZero(4));
     }
 
     @Test
     @DisplayName("")
     void fartherFromZeroTest3() {
     // Enter code here
-    assertEquals(-55, Main.fartherFromZero(-50));
+    assertEquals(-55, PracticeProblem.fartherFromZero(-50));
     }
 
     @Test
     @DisplayName("")
     void fartherFromZeroTest4() {
     // Enter code here
-    assertEquals(-16, Main.fartherFromZero(-11));
+    assertEquals(-16, PracticeProblem.fartherFromZero(-11));
     }
 
     @Test
     @DisplayName("")
     void fartherFromZeroTest5() {
     // Enter code here
-    assertEquals(0, Main.fartherFromZero(0));
+    assertEquals(0, PracticeProblem.fartherFromZero(0));
     }
 }

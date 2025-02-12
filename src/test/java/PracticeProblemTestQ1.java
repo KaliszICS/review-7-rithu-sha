@@ -8,35 +8,35 @@ public class PracticeProblemTestQ1 {
   @DisplayName("")
   void evenOrOddTest1() {
     // Enter code here
-    assertEquals("Odd", Main.evenOrOdd(5));
+    assertEquals("Odd", PracticeProblem.evenOrOdd(5));
   }
 
   @Test
   @DisplayName("")
   void evenOrOddTest2() {
     // Enter code here
-    assertEquals("Even", Main.evenOrOdd(86));
+    assertEquals("Even", PracticeProblem.evenOrOdd(86));
   }
 
   @Test
   @DisplayName("")
   void evenOrOddTest3() {
     // Enter code here
-    assertEquals("Even", Main.evenOrOdd(0));
+    assertEquals("Even", PracticeProblem.evenOrOdd(0));
   }
 
   @Test
   @DisplayName("")
   void evenOrOddTest4() {
     // Enter code here
-    assertEquals("Odd", Main.evenOrOdd(-9));
+    assertEquals("Odd", PracticeProblem.evenOrOdd(-9));
   }
 
   @Test
   @DisplayName("")
   void evenOrOddTest5() {
     // Enter code here
-    assertEquals("Even", Main.evenOrOdd(-50));
+    assertEquals("Even", PracticeProblem.evenOrOdd(-50));
   }
 
 }
